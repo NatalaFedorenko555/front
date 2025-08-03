@@ -1,0 +1,28 @@
+p{
+    color: crimson;
+    font-size: 20px;
+}
+strong{
+    background-color: rgb(100, 184, 16);
+    color: blue;
+    font-weight: lighter;
+}
+p{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+#punkt2{
+    font-weight: 900;
+}
+.green{
+    background-color: aquamarine;
+}
+.small{
+    text-transform: lowercase;
+}
+.red{
+    color: red;
+}

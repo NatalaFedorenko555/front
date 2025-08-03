@@ -1,0 +1,28 @@
+h1, h2, h3{
+    text-align: center;
+}
+h2{
+background-color: rgb(193, 240, 225);
+}
+.design{
+    background-color: rgb(242, 198, 182);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.important{
+    font-weight: bolder;
+}
+
+.way{
+    font-weight: bolder;
+    font-style: italic;
+}
+em{
+    font-weight: bolder;
+}
+body{
+    background-color: rgb(231, 238, 247);
+}
+
