@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 2rem;
+
+}
+.contaner{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(110, 110, 54);
+    margin: auto;
+
+}
+.one{
+    background-color: aqua;
+    flex-grow: 5;
+    
+    
+}
+.two{
+    background-color: antiquewhite;
+    flex-grow: 2;
+
+}
+.tree{
+    background-color: aquamarine;
+    flex-grow: 3;
+    
+}
+.item{
+    width:200px ;
+
+}

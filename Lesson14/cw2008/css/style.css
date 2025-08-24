@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+.contaner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    font-size: 12px;
+}
+.box{
+    color: whitesmoke;
+    text-decoration: underline rgb(233, 68, 169);
+    display: block;
+    width: 100%;
+}
+.box:hover{
+    background-color: cyan;
+}
+
+@media   (min-width:576px) {
+    .contaner{
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    }
+    
+
+@media (min-width:768) {
+    .contaner{
+        font-size: 20px;
+    }
+    
+}
+@media (min-width:1400) {
+    .contaner{
+        font-size: 24px;
+    }
+    
+}
+
+
+
+    
+
+    
+
+
+
+
+        
+        
+
+        
+         
+
+        
+        
+        
+    
+    

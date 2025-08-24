@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body{margin: 0;}
+
+div{
+    margin: 50px;
+    margin-top:20 px;
+    margin-bottom: 5px;
+    background-color: rgb(218, 205, 230);
+    padding: 30px;
+    padding-left: 100px;
+    border:1px solid red ;
+
+}
+#div2{
+    width: 600px;
+    margin: 10px auto;
+    margin-top: -50px;
+    background-color: rgb(200, 234, 167);
+}

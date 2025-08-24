@@ -1,0 +1,125 @@
+header {
+    background-color: lightblue;
+    height: 100px;
+}
+
+footer {
+    background-color: lightgrey;
+    height: 100px;
+}
+
+main {
+    min-height: 100vh;
+    /*vh - viewport heigh  100vh - это высота вьюпорта
+      высота нашего экрана*/
+    /*vw - viewport width 100vw- высота экрана*/
+}
+
+.card {
+    height: 450px;
+    width: 300px;
+    margin: 24px;
+    position: static;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* normal flow - обычный поток данных в документе*/
+/*position :static;
+релатив(relative)  мы можем управлять положением елемента при помощи
+top,rigth,bottom,left
+он будет расположен относительно своего нормального положения
+(как если бы он был статическим)
+а другие елементы ведут себя как если бы он продолжал оставаться на своём месте */
+
+.relative {
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+.offset {
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/*position:absolute;
+елемент размещается относительно документа или если есть родитель со значением не равным
+static( позиционированный элемент) то он будет размещаться относительно него
+абсолютно позиционированный элемент изчезает из нормального потока */
+.up {
+    background-color: lightgreen;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin: auto;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+/*position:fixed;
+елемент размещается относительно вьюпорта= экрана 
+top,right,bottom,left
+елемент изчезает из нормального потока (другие не замечают) */
+
+.sticky {
+    position: sticky;
+    top: 46px;
+    z-index: 3;
+    /*z-index отвечает за слои наложения элементов*/
+
+}
+
+
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: lightpink;
+    height: 40px;
+    z-index: 9;
+
+}
+
+/*position sticky
+сначала ведет себя как статический а потом как fixed
+когда край экрана достиг элемента на указанное расстояние
+top:30px;
+- елемент "залип"*/

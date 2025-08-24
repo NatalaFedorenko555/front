@@ -1,0 +1,25 @@
+input[type="text"]{
+    width: 300px;
+    padding: 15px 15px;
+    border: 4px solid green;
+    border-radius: 10px;
+    color: green;
+    margin: 10px;
+    outline: none;
+    font-size: 16px;
+}
+input[type=" text"]::placeholder{
+    color: aqua;
+    font-style: italic;
+
+}
+input[type="text"]:focus{
+    border-color: blue;
+    box-shadow: 0 2px 5 px rgb(94,97,98,76 );
+
+}
+
+.btn:hover{
+background:olivedrab ;
+color:whitesmoke;
+}

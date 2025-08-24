@@ -1,0 +1,50 @@
+img{
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 10%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contaner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+
+    
+}
+.imege-box{
+    width: 20%;
+    background-color: rgb(167, 238, 238);
+    color: grey;
+    padding: 1,2em;
+    text-align: justify;
+    
+    border-radius: 5%;
+    border: 1px solid grey;
+    margin: 10px;
+    flex-grow: 5;
+
+
+}
+h2{
+    color: rgb(246, 161, 161);
+    font-size: 3em;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 10px 0 3px grey;
+}
+p{
+    font-size: x-small;
+
+}
+
+
+
+

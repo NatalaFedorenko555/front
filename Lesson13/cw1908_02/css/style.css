@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(184, 240, 240);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 50px;
+
+}
+h1{
+    font-size: 3em;
+}
+
+@media (max-width:990px){
+    body{
+        background-color: brown;
+        font-size: 18px;
+
+    }
+    h1{
+        font-size: 2em;
+    
+    }
+
+    
+}
+
+@media(max-width:550px) {
+    body{
+        background-color: red;
+        font-size: 14px;
+        color: brown;
+    }
+    h1{
+        font-size: 1em;
+        display: none;
+    }
+    
+}
+
+

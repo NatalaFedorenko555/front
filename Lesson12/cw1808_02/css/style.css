@@ -1,0 +1,11 @@
+ body {
+    background-color: rgb(201, 240, 240);
+ }
+
+ input {
+    margin: 5px;
+ }
+
+ ul {
+    list-style: none;
+ }

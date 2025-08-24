@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HW1908</title>
+</head>
+<body>
+    <form action="#" method="get">
+    <select name="operation" required>
+        <option value=""> Выберите тип операций</option>
+        <optgroup label="Операции со счётом ">
+        <option value="1"> пополнить счет</option>
+        <option value="2 ">снять наличные </option>
+        <option value="3">посмотреть баланс</option>
+        </optgroup>
+
+        <optgroup label=" Операции по кредиту">
+            <option value=" 4">Планово погасить </option>
+            <option value="5">Погасить досрочно </option>
+            <option value="6">Выписка </option>
+
+        </optgroup>
+    </select>
+    <br>
+    <br>
+
+    <label for="city">Введите город</label>
+    <input list="sities" name="city" id="city">
+  <datalist id="cities">
+    <option value="Berlin">
+    <option value="Hamburg">
+    <option value="Postdam">
+  </datalist>
+
+  <br>
+
+
+  <label for="password">Введите пароль</label>
+  <input type="password" name="password"required minlength="8" 
+  id="password" 
+  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).+ " title="  Минимум: 8 символов, 1 заглавная, 1 строчная ,1 цифра">
+
+  <br>
+  <br>
+  
+<label for="name">Введите имя </label>
+<input type="text" name="name" id="name"  placeholder="Введите имя" autocomplete ="off">
+
+
+
+<br>
+  <button type="submit" class="btn">Отправить</button>
+
+
+    </form>
+</body>
+</html>

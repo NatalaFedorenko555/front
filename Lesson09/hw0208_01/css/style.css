@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+    text-align: justify;
+    font-size: 20px;
+}
+.css{
+    background-color: rgb(188, 188, 247);
+
+
+
+
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.times{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+}

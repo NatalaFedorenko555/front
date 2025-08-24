@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Форма обратной связи</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Как с вами свазаться </legend>
+            <label for="name">Ваше имя :</label><br>
+            <input type="text" id="name" name="name" placeholder=" Ваше имя" required><br>
+
+
+            <label for="name">Email :</label><br>
+            <input type="imail" id="email" name="email" placeholder=" mail@mail.com" required><br>
+
+            <label for="name">Phone:</label><br>
+            <input type="phone" id="phone" name="phone" placeholder=" +49 456 675 456" required><br>
+
+
+            <fieldset>
+                <legend>Данные контракта</legend>
+                <label for="date"> Дата контракта</label><br>
+                <input type="data" name="data" id="data"><br>
+
+                <label for="contract">Номер договора: </label><br>
+                <input type="text" id="contract" name="contract" placeholder="K765/5/$"><br>
+
+            </fieldset>
+
+        </fieldset>
+        <label>Оценмте наш сервис<br>
+            <input type="radio" name="rating" id="good" value="good" checked>
+            <label for="good">Good</label>
+            <input type="radio" name="rating" id="average" value="average">
+            <label for="average">Average</label>
+            <input type="radio" name="rating" id="bad" value="bad">
+            <label for="bad">Bad</label>
+
+
+            <div>Как часто вы пользуетесь <br>
+                <input type="radio" name="often" id="first" value="first">
+                <label for="first">Первый раз</label>
+                <input type="radio" name="often" id="sometimes" value="sometimes">
+                <label for="sometimes">Иногда </label>
+                <input type="radio" name="often" id="often" value="often" checked>
+                <label for="often"> Часто</label>
+            </div>
+
+
+            <label for="message">Сообщение: </label><br>
+            <textarea name="message" cols="80" rows="7" id="message" placeholder="Введите ваше сообщение"></textarea>
+
+            <fieldset>
+                <input type="checkbox" name="accpt" id="accept">
+                <label for="accept">даю согласие</label>
+
+            </fieldset>
+
+            <button type="submit">отправить</button>
+
+
+
+    </form>
+
+</body>
+
+</html>

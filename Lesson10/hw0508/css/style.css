@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(166, 194, 215);
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+.top-section {
+    background-color: bisque;
+    padding: 0 24px;
+}
+
+h1 {
+    margin-bottom: 6px;
+    color: darkred;
+    font-family: cursive;
+
+
+}
+
+.slogan {
+    margin-top: 6px;
+    color: darkred;
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.card {
+    background-color: white;
+    padding: 12px;
+    margin: 12px;
+}
+
+.card a {
+    text-align: center;
+    display: block;
+}
+
+.card a:hover {
+    text-decoration: underline darkred;
+}
+
+.card p {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.container {
+    background-color: rgb(78, 157, 227);
+    max-width: 600px;
+    margin: 80 px auto;
+    padding: 24px 0;
+    /*если хотим чтобы ширина была от границы до границы */
+    box-sizing: border-box;
+
+}
+
+.playwrite-au-qld-regular {
+    font-family: "Playwrite AU QLD,cursive";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cuorsive {
+    font-style: italic;
+}
